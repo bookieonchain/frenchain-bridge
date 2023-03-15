@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background: rgb(0, 0, 0, 0);
+  border: 0;
+}
+
+input {
+  outline: none;
+  border: 0;
+  font-family: "Poppins";
+  line-height: 22px;
+  font-size: 16px;
+}
+
+body {
+  box-sizing: border-box;
+  background: rgb(0, 0, 0);
+}
+
+@font-face {
+  font-family: 'MonumentExtended-Regular';
+  src: local('MonumentExtended-Regular'), url(./font/MonumentExtended-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'MonumentExtended-Ultrabold';
+  src: local('MonumentExtended-Ultrabold'), url(./font/MonumentExtended-Ultrabold.otf) format('opentype');
+}
